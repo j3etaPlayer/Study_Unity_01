@@ -1,0 +1,15 @@
+C:\Users\Administrator\Documents\박준민\StudyUnity001\Study_001\bin\Debug\net6.0\Study_001.exe
+C:\Users\Administrator\Documents\박준민\StudyUnity001\Study_001\bin\Debug\net6.0\Study_001.deps.json
+C:\Users\Administrator\Documents\박준민\StudyUnity001\Study_001\bin\Debug\net6.0\Study_001.runtimeconfig.json
+C:\Users\Administrator\Documents\박준민\StudyUnity001\Study_001\bin\Debug\net6.0\Study_001.dll
+C:\Users\Administrator\Documents\박준민\StudyUnity001\Study_001\bin\Debug\net6.0\Study_001.pdb
+C:\Users\Administrator\Documents\박준민\StudyUnity001\Study_001\obj\Debug\net6.0\Study_001.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\박준민\StudyUnity001\Study_001\obj\Debug\net6.0\Study_001.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\박준민\StudyUnity001\Study_001\obj\Debug\net6.0\Study_001.AssemblyInfo.cs
+C:\Users\Administrator\Documents\박준민\StudyUnity001\Study_001\obj\Debug\net6.0\Study_001.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\박준민\StudyUnity001\Study_001\obj\Debug\net6.0\Study_001.sourcelink.json
+C:\Users\Administrator\Documents\박준민\StudyUnity001\Study_001\obj\Debug\net6.0\Study_001.dll
+C:\Users\Administrator\Documents\박준민\StudyUnity001\Study_001\obj\Debug\net6.0\refint\Study_001.dll
+C:\Users\Administrator\Documents\박준민\StudyUnity001\Study_001\obj\Debug\net6.0\Study_001.pdb
+C:\Users\Administrator\Documents\박준민\StudyUnity001\Study_001\obj\Debug\net6.0\Study_001.genruntimeconfig.cache
+C:\Users\Administrator\Documents\박준민\StudyUnity001\Study_001\obj\Debug\net6.0\ref\Study_001.dll
