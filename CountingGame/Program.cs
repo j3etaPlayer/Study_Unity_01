@@ -49,7 +49,6 @@ namespace CountingGame
             int number = -1;
             while (isStart)
             {
-                Console.Clear();
                 BackGround();
 
                 if (isWarning)

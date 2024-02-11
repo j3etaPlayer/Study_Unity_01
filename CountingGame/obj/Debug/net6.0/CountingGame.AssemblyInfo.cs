@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CountingGame")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08e93a9af984cf91b2800f71c7ad6dbd2760c7fd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc859a4cd3e7a7900a5c9c388e39ebe2081300ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("CountingGame")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CountingGame")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
