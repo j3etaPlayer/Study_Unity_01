@@ -1,7 +1,4 @@
-﻿using System.Diagnostics;
-using System.Diagnostics.Metrics;
-using System.Reflection;
-using System.Text;
+﻿using System.Text;
 
 namespace CountingGame
 {
@@ -41,7 +38,11 @@ namespace CountingGame
                 Console.WriteLine();
             }
         }
-
+        static int RandomNum()
+        {
+            Random random = new Random();
+            return random.Next(1, 100);
+        }
         static void GameReady()
         {
             bool isStart = true;
@@ -58,6 +59,8 @@ namespace CountingGame
                 CursorWrite(14, 4, "입력(1~100) : ");
 
                 number = int.Parse(Console.ReadLine());
+                //number = RandomNum();
+
 
                 if (1 <= number && number <= 100)
                 {
@@ -94,7 +97,7 @@ namespace CountingGame
                         userInputBuilder.Length -= 1;
                         Console.Write("\b \b");
                     }
-                    else if (keyInfo.Key == ConsoleKey.Enter|| keyInfo.Key == ConsoleKey.Spacebar)
+                    else if (keyInfo.Key == ConsoleKey.Enter || keyInfo.Key == ConsoleKey.Spacebar)
                     {
                         break;
                     }
