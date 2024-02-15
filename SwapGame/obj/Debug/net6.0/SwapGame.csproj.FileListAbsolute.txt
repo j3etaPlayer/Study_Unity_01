@@ -1,0 +1,15 @@
+D:\Study\Github\StudyUnity001\SwapGame\bin\Debug\net6.0\SwapGame.exe
+D:\Study\Github\StudyUnity001\SwapGame\bin\Debug\net6.0\SwapGame.deps.json
+D:\Study\Github\StudyUnity001\SwapGame\bin\Debug\net6.0\SwapGame.runtimeconfig.json
+D:\Study\Github\StudyUnity001\SwapGame\bin\Debug\net6.0\SwapGame.dll
+D:\Study\Github\StudyUnity001\SwapGame\bin\Debug\net6.0\SwapGame.pdb
+D:\Study\Github\StudyUnity001\SwapGame\obj\Debug\net6.0\SwapGame.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Github\StudyUnity001\SwapGame\obj\Debug\net6.0\SwapGame.AssemblyInfoInputs.cache
+D:\Study\Github\StudyUnity001\SwapGame\obj\Debug\net6.0\SwapGame.AssemblyInfo.cs
+D:\Study\Github\StudyUnity001\SwapGame\obj\Debug\net6.0\SwapGame.csproj.CoreCompileInputs.cache
+D:\Study\Github\StudyUnity001\SwapGame\obj\Debug\net6.0\SwapGame.sourcelink.json
+D:\Study\Github\StudyUnity001\SwapGame\obj\Debug\net6.0\SwapGame.dll
+D:\Study\Github\StudyUnity001\SwapGame\obj\Debug\net6.0\refint\SwapGame.dll
+D:\Study\Github\StudyUnity001\SwapGame\obj\Debug\net6.0\SwapGame.pdb
+D:\Study\Github\StudyUnity001\SwapGame\obj\Debug\net6.0\SwapGame.genruntimeconfig.cache
+D:\Study\Github\StudyUnity001\SwapGame\obj\Debug\net6.0\ref\SwapGame.dll

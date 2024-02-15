@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Study\\Github\\StudyUnity001\\001_Study\\001_Study.csproj",
-      "projectName": "001_Study",
-      "projectPath": "D:\\Study\\Github\\StudyUnity001\\001_Study\\001_Study.csproj",
+      "projectUniqueName": "D:\\Study\\Github\\StudyUnity001\\SwapGame\\SwapGame.csproj",
+      "projectName": "SwapGame",
+      "projectPath": "D:\\Study\\Github\\StudyUnity001\\SwapGame\\SwapGame.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\Study\\Github\\StudyUnity001\\001_Study\\obj\\",
+      "outputPath": "D:\\Study\\Github\\StudyUnity001\\SwapGame\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
