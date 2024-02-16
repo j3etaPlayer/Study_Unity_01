@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SwapGame")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b7e3f51d2348dc70c343a9966f46cfbc3d7a6452")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a6438e253162794a15cbaa7d8a9d53ca938182f")]
 [assembly: System.Reflection.AssemblyProductAttribute("SwapGame")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SwapGame")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
