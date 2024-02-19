@@ -9,73 +9,134 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
         }
     }
 
-
-    class Building
+    class Build
     {
-
-    }
-    class Barracks : Building
-    {
-        public void TrainUnit()  // 형변환과 조건을 사용해서 유닛을 생성시킨다.
+        public virtual void TrainUnit(Unit unit)
         {
-            // M 입력시 marine 생성
-            // F 입력시 Firebat 생성
-            // G 입력시 Ghost 생성
-            // C 입력시 Medic 생성
+            Console.WriteLine("유닛 생성");
         }
     }
-    class CommandCenter : Building
+    class Barracks : Build
     {
-        // 스킬 : 유닛생성(SCV)
+        public override void TrainUnit(Unit unit)
+        {
+            switch (Console.ReadKey().Key)
+            {
+                case ConsoleKey.M:
+                    if (unit is Marine)
+                    {
+                        Marine? marines = unit as Marine;
+                        Console.WriteLine("마린 생성");
+                    }
+                    break;
+                case ConsoleKey.F:
+                    if (unit is Firebat)
+                    {
+                        Firebat? firebats = unit as Firebat;
+                        Console.WriteLine("파이어벳 생성");
+                    }
+                    break;
+                case ConsoleKey.G:
+                    if (unit is Ghost)
+                    {
+                        Ghost? ghosts = unit as Ghost;
+                        Console.WriteLine("고스트 생성");
+                    }
+                    break;
+                case ConsoleKey.C:
+                    if (unit is Medic)
+                    {
+                        Medic? medics = unit as Medic;
+                        Console.WriteLine("메딕 생성");
+                    }
+                    break;
+                default:
+                    Console.WriteLine("잘못된 입력입니다.");
+                    break;
+            }
+        }
+    }
+    class CommandCenter : Build
+    {
+        public override void TrainUnit(Unit unit)
+        {
+            switch (Console.ReadKey().Key)
+            {
+                case ConsoleKey.S:
+                    if (unit is SCV)
+                    {
+                        SCV? scvs = unit as SCV;
+                        Console.WriteLine("SCV 생성");
+                    }
+                    break;
+                default:
+                    Console.WriteLine("잘못된 입력입니다.");
+                    break;
+            }
+        }
     }
     class Unit
     {
-        public virtual void DoAttack()
+        public virtual void Move()
         {
-            Console.WriteLine("공격합니다.");
-        }
-        public virtual void UseSkill()
-        {
-            Console.WriteLine("스킬을 사용합니다.");
+            Console.WriteLine("이동하였습니다.");
         }
     }
     class SCV : Unit
     {
-        public override void UseSkill()
+        public void Building(Build building)
         {
-
-        }
-        private void MakeBuilding()
-        {
-
+            switch (Console.ReadKey().Key)
+            {
+                case ConsoleKey.C:
+                    if (building is CommandCenter)
+                    {
+                        CommandCenter? comcen = building as CommandCenter;
+                        Console.WriteLine("CommandCenter 생성");
+                    }
+                    break;
+                case ConsoleKey.B:
+                    if (building is Barracks)
+                    {
+                        Barracks? baraks = building as Barracks;
+                        Console.WriteLine("Barracks 생성");
+                    }
+                    break;
+                default:
+                    Console.WriteLine("잘못된 입력입니다.");
+                    break;
+            }
         }
     }
     class Marine : Unit
     {
-        public override void DoAttack()
+        public override void Move()
         {
-
-        }
-        public override void UseSkill()
-        {
-
+            base.Move();
         }
     }
     class Firebat : Unit
     {
-        // 공격 : 화염방사기
+        public override void Move()
+        {
+            base.Move();
+        }
     }
     class Ghost : Unit
     {
-        // 공격 : 저격총
-        // 스킬 : 클록킹
+        public override void Move()
+        {
+            base.Move();
+        }
     }
     class Medic : Unit
     {
-        // 스킬 : 치료
+        public override void Move()
+        {
+            base.Move();
+        }
     }
 }

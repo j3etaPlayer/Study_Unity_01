@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BarracksGame")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a6438e253162794a15cbaa7d8a9d53ca938182f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae8719431b4c6c8b92ecd7f211724c76b023bb4c")]
 [assembly: System.Reflection.AssemblyProductAttribute("BarracksGame")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BarracksGame")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
