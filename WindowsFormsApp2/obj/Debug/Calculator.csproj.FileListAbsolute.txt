@@ -8,3 +8,13 @@ D:\Study\Github\StudyUnity001\WindowsFormsApp2\obj\Debug\Calculator.csproj.Gener
 D:\Study\Github\StudyUnity001\WindowsFormsApp2\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
 D:\Study\Github\StudyUnity001\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
 D:\Study\Github\StudyUnity001\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\Administrator\Documents\박준민\StudyUnity001\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\Administrator\Documents\박준민\StudyUnity001\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\Administrator\Documents\박준민\StudyUnity001\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\Administrator\Documents\박준민\StudyUnity001\WindowsFormsApp2\obj\Debug\Calculator.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\박준민\StudyUnity001\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+C:\Users\Administrator\Documents\박준민\StudyUnity001\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\Administrator\Documents\박준민\StudyUnity001\WindowsFormsApp2\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\박준민\StudyUnity001\WindowsFormsApp2\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\박준민\StudyUnity001\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\Administrator\Documents\박준민\StudyUnity001\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
