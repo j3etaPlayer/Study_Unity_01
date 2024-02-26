@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountingGame", "CountingGam
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwapGame", "SwapGame\SwapGame.csproj", "{4E5AB197-6FD3-4EAF-8A9A-72F9886DD2D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarracksGame", "BarracksGame\BarracksGame.csproj", "{A258A3D4-5353-42D4-9CF6-A6A0697CEC31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarracksGame", "BarracksGame\BarracksGame.csproj", "{A258A3D4-5353-42D4-9CF6-A6A0697CEC31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "WindowsFormsApp2\Calculator.csproj", "{B4D1CE31-2E89-4E3A-B082-72EFAB72A1A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{A258A3D4-5353-42D4-9CF6-A6A0697CEC31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A258A3D4-5353-42D4-9CF6-A6A0697CEC31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A258A3D4-5353-42D4-9CF6-A6A0697CEC31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4D1CE31-2E89-4E3A-B082-72EFAB72A1A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4D1CE31-2E89-4E3A-B082-72EFAB72A1A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4D1CE31-2E89-4E3A-B082-72EFAB72A1A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4D1CE31-2E89-4E3A-B082-72EFAB72A1A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +43,7 @@ Global
 		{2723BF88-1145-46AE-8E7B-67D20B154975} = {DB141AC2-86C5-4E20-8DE9-1D4EEA6C30E2}
 		{4E5AB197-6FD3-4EAF-8A9A-72F9886DD2D5} = {DB141AC2-86C5-4E20-8DE9-1D4EEA6C30E2}
 		{A258A3D4-5353-42D4-9CF6-A6A0697CEC31} = {DB141AC2-86C5-4E20-8DE9-1D4EEA6C30E2}
+		{B4D1CE31-2E89-4E3A-B082-72EFAB72A1A2} = {DB141AC2-86C5-4E20-8DE9-1D4EEA6C30E2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D6FD4206-4CEA-4DB5-8831-5D93D85A312F}
