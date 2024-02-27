@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\Documents\\박준민\\StudyUnity001\\BarracksGame\\BarracksGame.csproj": {}
+    "D:\\Study\\Github\\StudyUnity001\\BarracksGame\\BarracksGame.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\Documents\\박준민\\StudyUnity001\\BarracksGame\\BarracksGame.csproj": {
+    "D:\\Study\\Github\\StudyUnity001\\BarracksGame\\BarracksGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Documents\\박준민\\StudyUnity001\\BarracksGame\\BarracksGame.csproj",
+        "projectUniqueName": "D:\\Study\\Github\\StudyUnity001\\BarracksGame\\BarracksGame.csproj",
         "projectName": "BarracksGame",
-        "projectPath": "C:\\Users\\Administrator\\Documents\\박준민\\StudyUnity001\\BarracksGame\\BarracksGame.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Documents\\박준민\\StudyUnity001\\BarracksGame\\obj\\",
+        "projectPath": "D:\\Study\\Github\\StudyUnity001\\BarracksGame\\BarracksGame.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\Study\\Github\\StudyUnity001\\BarracksGame\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
