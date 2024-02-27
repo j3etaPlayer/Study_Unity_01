@@ -91,6 +91,11 @@ namespace WindowsFormsApp2
                     currentOperators = Operators.None;
                     break;
                 case Operators.Divide:
+                    if (secondValue == 0)
+                    {
+                        MessageBox.Show("0으로는 나눌수 없습니다.", "Divide Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
                     answer = NumsDiv(firstValue, secondValue);
                     display.Text = answer.ToString();
                     currentOperators = Operators.None;
@@ -103,7 +108,7 @@ namespace WindowsFormsApp2
         // 기능과 관련된 메소드
         private double DisplayToDouble(string str)
         {
-            return double.Parse(display.Text);
+            return double.Parse(str);
         }
 
         // 버튼의 동작과 관련된 메소드

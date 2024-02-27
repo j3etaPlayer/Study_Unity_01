@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwapGame", "SwapGame\SwapGa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarracksGame", "BarracksGame\BarracksGame.csproj", "{A258A3D4-5353-42D4-9CF6-A6A0697CEC31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "WindowsFormsApp2\Calculator.csproj", "{B4D1CE31-2E89-4E3A-B082-72EFAB72A1A2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{B4D1CE31-2E89-4E3A-B082-72EFAB72A1A2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database_test", "Database_test\Database_test.csproj", "{17A50E12-6420-4DAC-B091-68C3E9C845A7}"
 EndProject
