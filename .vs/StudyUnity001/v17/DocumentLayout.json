@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Documents\\\uBC15\uC900\uBBFC\\StudyUnity001\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{17A50E12-6420-4DAC-B091-68C3E9C845A7}|Database_test\\Database_test.csproj|c:\\users\\administrator\\documents\\\uBC15\uC900\uBBFC\\studyunity001\\database_test\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{17A50E12-6420-4DAC-B091-68C3E9C845A7}|Database_test\\Database_test.csproj|solutionrelative:database_test\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17A50E12-6420-4DAC-B091-68C3E9C845A7}|Database_test\\Database_test.csproj|c:\\users\\administrator\\documents\\\uBC15\uC900\uBBFC\\studyunity001\\database_test\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17A50E12-6420-4DAC-B091-68C3E9C845A7}|Database_test\\Database_test.csproj|solutionrelative:database_test\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17A50E12-6420-4DAC-B091-68C3E9C845A7}|Database_test\\Database_test.csproj|c:\\users\\administrator\\documents\\\uBC15\uC900\uBBFC\\studyunity001\\database_test\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17A50E12-6420-4DAC-B091-68C3E9C845A7}|Database_test\\Database_test.csproj|solutionrelative:database_test\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17A50E12-6420-4DAC-B091-68C3E9C845A7}|Database_test\\Database_test.csproj|C:\\Users\\Administrator\\Documents\\\uBC15\uC900\uBBFC\\StudyUnity001\\database_test\\file_io.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17A50E12-6420-4DAC-B091-68C3E9C845A7}|Database_test\\Database_test.csproj|solutionrelative:database_test\\file_io.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17A50E12-6420-4DAC-B091-68C3E9C845A7}|Database_test\\Database_test.csproj|C:\\Users\\Administrator\\Documents\\\uBC15\uC900\uBBFC\\StudyUnity001\\database_test\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17A50E12-6420-4DAC-B091-68C3E9C845A7}|Database_test\\Database_test.csproj|solutionrelative:database_test\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 31,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\\uBC15\uC900\uBBFC\\StudyUnity001\\Database_test\\Form1.cs",
+              "RelativeDocumentMoniker": "Database_test\\Form1.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\\uBC15\uC900\uBBFC\\StudyUnity001\\Database_test\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "Database_test\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T07:22:39.874Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\\uBC15\uC900\uBBFC\\StudyUnity001\\Database_test\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Database_test\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\\uBC15\uC900\uBBFC\\StudyUnity001\\Database_test\\Form1.Designer.cs",
+              "RelativeToolTip": "Database_test\\Form1.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T07:22:42.142Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 49,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataManager.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\\uBC15\uC900\uBBFC\\StudyUnity001\\Database_test\\DataManager.cs",
+              "RelativeDocumentMoniker": "Database_test\\DataManager.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\\uBC15\uC900\uBBFC\\StudyUnity001\\Database_test\\DataManager.cs",
+              "RelativeToolTip": "Database_test\\DataManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T08:25:13.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\\uBC15\uC900\uBBFC\\StudyUnity001\\Database_test\\Form1.cs",
+              "RelativeDocumentMoniker": "Database_test\\Form1.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\\uBC15\uC900\uBBFC\\StudyUnity001\\Database_test\\Form1.cs",
+              "RelativeToolTip": "Database_test\\Form1.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAA0wCYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T07:22:50.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "File_IO.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\\uBC15\uC900\uBBFC\\StudyUnity001\\Database_test\\File_IO.cs",
+              "RelativeDocumentMoniker": "Database_test\\File_IO.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\\uBC15\uC900\uBBFC\\StudyUnity001\\Database_test\\File_IO.cs",
+              "RelativeToolTip": "Database_test\\File_IO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T08:08:44.316Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

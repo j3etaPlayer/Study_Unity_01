@@ -8,3 +8,6 @@ C:\Users\Administrator\Documents\박준민\StudyUnity001\Database_test\obj\Debug
 C:\Users\Administrator\Documents\박준민\StudyUnity001\Database_test\obj\Debug\Database_test.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\Documents\박준민\StudyUnity001\Database_test\obj\Debug\Database_test.exe
 C:\Users\Administrator\Documents\박준민\StudyUnity001\Database_test\obj\Debug\Database_test.pdb
+C:\Users\Administrator\Documents\박준민\StudyUnity001\Database_test\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Documents\박준민\StudyUnity001\Database_test\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Documents\박준민\StudyUnity001\Database_test\obj\Debug\Database.B5C0A19D.Up2Date

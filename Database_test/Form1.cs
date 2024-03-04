@@ -105,54 +105,63 @@ namespace Database_test
 
         private void Btn_DataSave_Click(object sender, EventArgs e)
         {
-            TextWriter writer = new StreamWriter(@"C:\Sample\test.txt");
-            for (int i = 0; i < DataGridViewInfo.Rows.Count-1; i++)
-            {
-                for (int j = 0; j < DataGridViewInfo.Columns.Count; j++)
-                {
-                    writer.Write("\t" + DataGridViewInfo.Rows[i].Cells[j].Value.ToString() + "\t" + "|");
-                }
-                writer.WriteLine();
-            }
-            writer.Close();
-            MessageBox.Show("데이터가 저장되었음!");
+            //TextWriter writer = new StreamWriter(@"C:\Sample\test.txt");
+            //for (int i = 0; i < DataGridViewInfo.Rows.Count-1; i++)
+            //{
+            //    for (int j = 0; j < DataGridViewInfo.Columns.Count; j++)
+            //    {
+            //        writer.Write("\t" + DataGridViewInfo.Rows[i].Cells[j].Value.ToString() + "\t" + "|");
+            //    }
+            //    writer.WriteLine();
+            //}
+            //writer.Close();
+
+            DataManager.SaveToJson(DataGridViewInfo, @"C:\Sample\SampleJson.Json", ListCombobox.Text);
+            MessageBox.Show("Json 데이터가 저장되었음!");
         }
 
         private void Btn_DataLoad_Click(object sender, EventArgs e)
         {
-            StreamReader reader = new StreamReader(@"C:\Sample\test.txt");
-            
-            string[] lines = File.ReadAllLines(@"C:\Sample\test.txt");
+            //StreamReader reader = new StreamReader(@"C:\Sample\test.txt");
 
-            DataGridViewInfo.ColumnCount = lines[0].Split('|').Length;
+            //string[] lines = File.ReadAllLines(@"C:\Sample\test.txt");
 
-            DataTable dt = new DataTable("1지역");
-            dt = new DataTable(ListCombobox.Text);
+            //DataGridViewInfo.ColumnCount = lines[0].Split('|').Length;
+
+            //DataTable dt = new DataTable("1지역");
+            //dt = new DataTable(ListCombobox.Text);
+            //ds.Tables.Add(dt);
+
+            //DataColumn columeID = new DataColumn("ID", typeof(string));
+            //DataColumn columeName = new DataColumn("Name", typeof(string));
+            //DataColumn columeRace = new DataColumn("Race", typeof(string));
+            //DataColumn columeRegion = new DataColumn("Region", typeof(string));
+
+            //dt.Columns.Add(columeID);
+            //dt.Columns.Add(columeName);
+            //dt.Columns.Add(columeRace);
+            //dt.Columns.Add(columeRegion);
+
+            //foreach (string line in lines)
+            //{
+            //    string[] values = line.Split('|');
+            //    DataRow row = dt.NewRow();
+            //    row["ID"] = values[0];
+            //    row["Name"] = values[1];
+            //    row["Race"] = values[2];
+            //    row["Region"] = values[3];
+
+            //    ds.Tables[ListCombobox.Text].Rows.Add(row);
+            //}
+
+            DataTable dt = DataManager.LoadToJson(@"C:\Sample\SampleJson.Json").dt;
+            dt.TableName = DataManager.LoadToJson(@"C:\Sample\SampleJson.Json").tableName;
+
             ds.Tables.Add(dt);
-
-            DataColumn columeID = new DataColumn("ID", typeof(string));
-            DataColumn columeName = new DataColumn("Name", typeof(string));
-            DataColumn columeRace = new DataColumn("Race", typeof(string));
-            DataColumn columeRegion = new DataColumn("Region", typeof(string));
-
-            dt.Columns.Add(columeID);
-            dt.Columns.Add(columeName);
-            dt.Columns.Add(columeRace);
-            dt.Columns.Add(columeRegion);
-
-            foreach (string line in lines)
-            {
-                string[] values = line.Split('|');
-                DataRow row = dt.NewRow();
-                row["ID"] = values[0];
-                row["Name"] = values[1];
-                row["Race"] = values[2];
-                row["Region"] = values[3];
-
-                ds.Tables[ListCombobox.Text].Rows.Add(row);
-            }
 
             ViewRefresh();
         }
+
+
     }
 }

@@ -39,14 +39,14 @@
             this.IDText = new System.Windows.Forms.TextBox();
             this.RegionSelectbox = new System.Windows.Forms.ComboBox();
             this.Control = new System.Windows.Forms.GroupBox();
+            this.Btn_DataLoad = new System.Windows.Forms.Button();
+            this.Btn_DataSave = new System.Windows.Forms.Button();
             this.BtnRemove = new System.Windows.Forms.Button();
             this.BtnCreate = new System.Windows.Forms.Button();
             this.BtnClear = new System.Windows.Forms.Button();
             this.List = new System.Windows.Forms.GroupBox();
             this.ListCombobox = new System.Windows.Forms.ComboBox();
             this.DataGridViewInfo = new System.Windows.Forms.DataGridView();
-            this.Btn_DataSave = new System.Windows.Forms.Button();
-            this.Btn_DataLoad = new System.Windows.Forms.Button();
             this.Information.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.Control.SuspendLayout();
@@ -206,6 +206,28 @@
             this.Control.TabStop = false;
             this.Control.Text = "Control";
             // 
+            // Btn_DataLoad
+            // 
+            this.Btn_DataLoad.Location = new System.Drawing.Point(204, 89);
+            this.Btn_DataLoad.Margin = new System.Windows.Forms.Padding(2);
+            this.Btn_DataLoad.Name = "Btn_DataLoad";
+            this.Btn_DataLoad.Size = new System.Drawing.Size(193, 41);
+            this.Btn_DataLoad.TabIndex = 4;
+            this.Btn_DataLoad.Text = "DataLoad";
+            this.Btn_DataLoad.UseVisualStyleBackColor = true;
+            this.Btn_DataLoad.Click += new System.EventHandler(this.Btn_DataLoad_Click);
+            // 
+            // Btn_DataSave
+            // 
+            this.Btn_DataSave.Location = new System.Drawing.Point(204, 22);
+            this.Btn_DataSave.Margin = new System.Windows.Forms.Padding(2);
+            this.Btn_DataSave.Name = "Btn_DataSave";
+            this.Btn_DataSave.Size = new System.Drawing.Size(193, 41);
+            this.Btn_DataSave.TabIndex = 3;
+            this.Btn_DataSave.Text = "DataSave";
+            this.Btn_DataSave.UseVisualStyleBackColor = true;
+            this.Btn_DataSave.Click += new System.EventHandler(this.Btn_DataSave_Click);
+            // 
             // BtnRemove
             // 
             this.BtnRemove.Location = new System.Drawing.Point(4, 154);
@@ -275,28 +297,6 @@
             this.DataGridViewInfo.RowTemplate.Height = 30;
             this.DataGridViewInfo.Size = new System.Drawing.Size(794, 160);
             this.DataGridViewInfo.TabIndex = 0;
-            // 
-            // Btn_DataSave
-            // 
-            this.Btn_DataSave.Location = new System.Drawing.Point(204, 22);
-            this.Btn_DataSave.Margin = new System.Windows.Forms.Padding(2);
-            this.Btn_DataSave.Name = "Btn_DataSave";
-            this.Btn_DataSave.Size = new System.Drawing.Size(193, 41);
-            this.Btn_DataSave.TabIndex = 3;
-            this.Btn_DataSave.Text = "DataSave";
-            this.Btn_DataSave.UseVisualStyleBackColor = true;
-            this.Btn_DataSave.Click += new System.EventHandler(this.Btn_DataSave_Click);
-            // 
-            // Btn_DataLoad
-            // 
-            this.Btn_DataLoad.Location = new System.Drawing.Point(204, 89);
-            this.Btn_DataLoad.Margin = new System.Windows.Forms.Padding(2);
-            this.Btn_DataLoad.Name = "Btn_DataLoad";
-            this.Btn_DataLoad.Size = new System.Drawing.Size(193, 41);
-            this.Btn_DataLoad.TabIndex = 4;
-            this.Btn_DataLoad.Text = "DataLoad";
-            this.Btn_DataLoad.UseVisualStyleBackColor = true;
-            this.Btn_DataLoad.Click += new System.EventHandler(this.Btn_DataLoad_Click);
             // 
             // Database
             // 
