@@ -57,11 +57,9 @@
             // Information
             // 
             this.Information.Controls.Add(this.tableLayoutPanel1);
-            this.Information.Location = new System.Drawing.Point(8, 8);
-            this.Information.Margin = new System.Windows.Forms.Padding(2);
+            this.Information.Location = new System.Drawing.Point(11, 12);
             this.Information.Name = "Information";
-            this.Information.Padding = new System.Windows.Forms.Padding(2);
-            this.Information.Size = new System.Drawing.Size(397, 203);
+            this.Information.Size = new System.Drawing.Size(567, 304);
             this.Information.TabIndex = 0;
             this.Information.TabStop = false;
             this.Information.Text = "Information";
@@ -79,15 +77,14 @@
             this.tableLayoutPanel1.Controls.Add(this.Label_ID, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.IDText, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.RegionSelectbox, 1, 3);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(4, 18);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(6, 27);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(388, 181);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(554, 272);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // RaceText
@@ -95,10 +92,9 @@
             this.RaceText.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.RaceText.Location = new System.Drawing.Point(79, 92);
-            this.RaceText.Margin = new System.Windows.Forms.Padding(2);
+            this.RaceText.Location = new System.Drawing.Point(113, 139);
             this.RaceText.Name = "RaceText";
-            this.RaceText.Size = new System.Drawing.Size(307, 21);
+            this.RaceText.Size = new System.Drawing.Size(438, 28);
             this.RaceText.TabIndex = 7;
             // 
             // NameText
@@ -106,10 +102,9 @@
             this.NameText.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.NameText.Location = new System.Drawing.Point(79, 47);
-            this.NameText.Margin = new System.Windows.Forms.Padding(2);
+            this.NameText.Location = new System.Drawing.Point(113, 71);
             this.NameText.Name = "NameText";
-            this.NameText.Size = new System.Drawing.Size(307, 21);
+            this.NameText.Size = new System.Drawing.Size(438, 28);
             this.NameText.TabIndex = 6;
             // 
             // Label_Race
@@ -117,10 +112,9 @@
             this.Label_Race.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Label_Race.Location = new System.Drawing.Point(2, 90);
-            this.Label_Race.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Label_Race.Location = new System.Drawing.Point(3, 136);
             this.Label_Race.Name = "Label_Race";
-            this.Label_Race.Size = new System.Drawing.Size(73, 45);
+            this.Label_Race.Size = new System.Drawing.Size(104, 68);
             this.Label_Race.TabIndex = 4;
             this.Label_Race.Text = "Race";
             this.Label_Race.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -130,10 +124,9 @@
             this.Label_Region.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Label_Region.Location = new System.Drawing.Point(2, 135);
-            this.Label_Region.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Label_Region.Location = new System.Drawing.Point(3, 204);
             this.Label_Region.Name = "Label_Region";
-            this.Label_Region.Size = new System.Drawing.Size(73, 46);
+            this.Label_Region.Size = new System.Drawing.Size(104, 68);
             this.Label_Region.TabIndex = 3;
             this.Label_Region.Text = "Region";
             this.Label_Region.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -143,10 +136,9 @@
             this.Label_Name.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Label_Name.Location = new System.Drawing.Point(2, 45);
-            this.Label_Name.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Label_Name.Location = new System.Drawing.Point(3, 68);
             this.Label_Name.Name = "Label_Name";
-            this.Label_Name.Size = new System.Drawing.Size(73, 45);
+            this.Label_Name.Size = new System.Drawing.Size(104, 68);
             this.Label_Name.TabIndex = 2;
             this.Label_Name.Text = "Name";
             this.Label_Name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -156,10 +148,9 @@
             this.Label_ID.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Label_ID.Location = new System.Drawing.Point(2, 0);
-            this.Label_ID.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Label_ID.Location = new System.Drawing.Point(3, 0);
             this.Label_ID.Name = "Label_ID";
-            this.Label_ID.Size = new System.Drawing.Size(73, 45);
+            this.Label_ID.Size = new System.Drawing.Size(104, 68);
             this.Label_ID.TabIndex = 0;
             this.Label_ID.Text = "ID";
             this.Label_ID.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -169,10 +160,9 @@
             this.IDText.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.IDText.Location = new System.Drawing.Point(79, 2);
-            this.IDText.Margin = new System.Windows.Forms.Padding(2);
+            this.IDText.Location = new System.Drawing.Point(113, 3);
             this.IDText.Name = "IDText";
-            this.IDText.Size = new System.Drawing.Size(307, 21);
+            this.IDText.Size = new System.Drawing.Size(438, 28);
             this.IDText.TabIndex = 5;
             // 
             // RegionSelectbox
@@ -185,9 +175,10 @@
             "1지역",
             "2지역",
             "3지역"});
-            this.RegionSelectbox.Location = new System.Drawing.Point(80, 138);
+            this.RegionSelectbox.Location = new System.Drawing.Point(114, 208);
+            this.RegionSelectbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.RegionSelectbox.Name = "RegionSelectbox";
-            this.RegionSelectbox.Size = new System.Drawing.Size(305, 20);
+            this.RegionSelectbox.Size = new System.Drawing.Size(436, 26);
             this.RegionSelectbox.TabIndex = 8;
             // 
             // Control
@@ -197,21 +188,18 @@
             this.Control.Controls.Add(this.BtnRemove);
             this.Control.Controls.Add(this.BtnCreate);
             this.Control.Controls.Add(this.BtnClear);
-            this.Control.Location = new System.Drawing.Point(419, 8);
-            this.Control.Margin = new System.Windows.Forms.Padding(2);
+            this.Control.Location = new System.Drawing.Point(599, 12);
             this.Control.Name = "Control";
-            this.Control.Padding = new System.Windows.Forms.Padding(2);
-            this.Control.Size = new System.Drawing.Size(397, 203);
+            this.Control.Size = new System.Drawing.Size(567, 304);
             this.Control.TabIndex = 1;
             this.Control.TabStop = false;
             this.Control.Text = "Control";
             // 
             // Btn_DataLoad
             // 
-            this.Btn_DataLoad.Location = new System.Drawing.Point(204, 89);
-            this.Btn_DataLoad.Margin = new System.Windows.Forms.Padding(2);
+            this.Btn_DataLoad.Location = new System.Drawing.Point(291, 134);
             this.Btn_DataLoad.Name = "Btn_DataLoad";
-            this.Btn_DataLoad.Size = new System.Drawing.Size(193, 41);
+            this.Btn_DataLoad.Size = new System.Drawing.Size(276, 62);
             this.Btn_DataLoad.TabIndex = 4;
             this.Btn_DataLoad.Text = "DataLoad";
             this.Btn_DataLoad.UseVisualStyleBackColor = true;
@@ -219,10 +207,9 @@
             // 
             // Btn_DataSave
             // 
-            this.Btn_DataSave.Location = new System.Drawing.Point(204, 22);
-            this.Btn_DataSave.Margin = new System.Windows.Forms.Padding(2);
+            this.Btn_DataSave.Location = new System.Drawing.Point(291, 33);
             this.Btn_DataSave.Name = "Btn_DataSave";
-            this.Btn_DataSave.Size = new System.Drawing.Size(193, 41);
+            this.Btn_DataSave.Size = new System.Drawing.Size(276, 62);
             this.Btn_DataSave.TabIndex = 3;
             this.Btn_DataSave.Text = "DataSave";
             this.Btn_DataSave.UseVisualStyleBackColor = true;
@@ -230,10 +217,9 @@
             // 
             // BtnRemove
             // 
-            this.BtnRemove.Location = new System.Drawing.Point(4, 154);
-            this.BtnRemove.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnRemove.Location = new System.Drawing.Point(6, 231);
             this.BtnRemove.Name = "BtnRemove";
-            this.BtnRemove.Size = new System.Drawing.Size(194, 41);
+            this.BtnRemove.Size = new System.Drawing.Size(277, 62);
             this.BtnRemove.TabIndex = 2;
             this.BtnRemove.Text = "Remove";
             this.BtnRemove.UseVisualStyleBackColor = true;
@@ -241,10 +227,9 @@
             // 
             // BtnCreate
             // 
-            this.BtnCreate.Location = new System.Drawing.Point(5, 89);
-            this.BtnCreate.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnCreate.Location = new System.Drawing.Point(7, 134);
             this.BtnCreate.Name = "BtnCreate";
-            this.BtnCreate.Size = new System.Drawing.Size(193, 41);
+            this.BtnCreate.Size = new System.Drawing.Size(276, 62);
             this.BtnCreate.TabIndex = 1;
             this.BtnCreate.Text = "Create";
             this.BtnCreate.UseVisualStyleBackColor = true;
@@ -252,10 +237,9 @@
             // 
             // BtnClear
             // 
-            this.BtnClear.Location = new System.Drawing.Point(5, 23);
-            this.BtnClear.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnClear.Location = new System.Drawing.Point(7, 34);
             this.BtnClear.Name = "BtnClear";
-            this.BtnClear.Size = new System.Drawing.Size(193, 41);
+            this.BtnClear.Size = new System.Drawing.Size(276, 62);
             this.BtnClear.TabIndex = 0;
             this.BtnClear.Text = "Clear";
             this.BtnClear.UseVisualStyleBackColor = true;
@@ -265,11 +249,9 @@
             // 
             this.List.Controls.Add(this.ListCombobox);
             this.List.Controls.Add(this.DataGridViewInfo);
-            this.List.Location = new System.Drawing.Point(8, 215);
-            this.List.Margin = new System.Windows.Forms.Padding(2);
+            this.List.Location = new System.Drawing.Point(11, 322);
             this.List.Name = "List";
-            this.List.Padding = new System.Windows.Forms.Padding(2);
-            this.List.Size = new System.Drawing.Size(808, 206);
+            this.List.Size = new System.Drawing.Size(1154, 309);
             this.List.TabIndex = 1;
             this.List.TabStop = false;
             this.List.Text = "List";
@@ -281,32 +263,31 @@
             "1지역",
             "2지역",
             "3지역"});
-            this.ListCombobox.Location = new System.Drawing.Point(29, 17);
+            this.ListCombobox.Location = new System.Drawing.Point(41, 26);
+            this.ListCombobox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ListCombobox.Name = "ListCombobox";
-            this.ListCombobox.Size = new System.Drawing.Size(190, 20);
+            this.ListCombobox.Size = new System.Drawing.Size(270, 26);
             this.ListCombobox.TabIndex = 1;
             this.ListCombobox.SelectedIndexChanged += new System.EventHandler(this.ListCombobox_SelectedIndexChanged);
             // 
             // DataGridViewInfo
             // 
             this.DataGridViewInfo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DataGridViewInfo.Location = new System.Drawing.Point(8, 42);
-            this.DataGridViewInfo.Margin = new System.Windows.Forms.Padding(2);
+            this.DataGridViewInfo.Location = new System.Drawing.Point(11, 63);
             this.DataGridViewInfo.Name = "DataGridViewInfo";
             this.DataGridViewInfo.RowHeadersWidth = 62;
             this.DataGridViewInfo.RowTemplate.Height = 30;
-            this.DataGridViewInfo.Size = new System.Drawing.Size(794, 160);
+            this.DataGridViewInfo.Size = new System.Drawing.Size(1134, 240);
             this.DataGridViewInfo.TabIndex = 0;
             // 
             // Database
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(825, 429);
+            this.ClientSize = new System.Drawing.Size(1179, 644);
             this.Controls.Add(this.List);
             this.Controls.Add(this.Control);
             this.Controls.Add(this.Information);
-            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Database";
             this.Text = "Database";
             this.Information.ResumeLayout(false);
